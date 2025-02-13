@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- header -->
+      <section class="header">
+        <article>
+          <div class="img">
+            <img src="./youtube-logo.png" alt="youtube logo" />
+          </div>
+          <div class="search-bar">
+            <div class="search">
+              <input type="text" name="title" id="title" placeholder="Search" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="logo"><i class="fa-solid fa-microphone"></i></div>
+          </div>
+          <div class="logo"><i class="fa-solid fa-user"></i></div>
+        </article>
+      </section>
+
+      <!-- video container -->
+      <section class="video-container">
+        <aside class="video-show">
+          <div class="show">
+            <div class="video-play"></div>
+            <h1 class="title">Bungo Stray Dogs S2 - Ending</h1>
+            <div class="desc">
+              <p class="desc1">
+                Atsushi Nakajima gets kicked out of his childhood orphanage.
+                Nowhere to go, he crosses paths with two detectives looking for
+                clues to find a bloodthirsty tiger and later gets recruited by
+                them.
+              </p>
+            </div>
+            <div class="comment-section">
+              <input type="text" name="comment" id="comment" placeholder="Enter Comment">
+              <button class="post-btn">Post</button>
+              <div class="comment-enter"></div>
+            </div>
+          </div>
+        </aside>
+        <aside class="all-video"></aside>
+      </section>
+    </div>
+    <script src="./App.js"></script>
+  </body>
+</html>
